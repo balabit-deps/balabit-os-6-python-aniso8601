@@ -1,0 +1,7 @@
+#!/usr/bin/make -f
+
+export PYBUILD_NAME=aniso8601
+
+%:
+	dh $@ --buildsystem=pybuild --with=python2,python3
+

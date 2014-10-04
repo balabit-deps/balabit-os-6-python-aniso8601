@@ -1,0 +1,5 @@
+python-aniso8601 (0.83-1) unstable; urgency=low
+
+  * Initial release (Closes: #763996)
+
+ -- Jonathan Carter <jonathan@ubuntu.com>  Sat, 04 Oct 2014 17:05:31 +0200

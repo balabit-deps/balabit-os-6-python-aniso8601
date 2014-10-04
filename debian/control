@@ -1,0 +1,43 @@
+Source: python-aniso8601
+Section: python
+Priority: optional
+Maintainer: Jonathan Carter <jonathan@ubuntu.com>
+Build-Depends:
+ debhelper (>= 9),
+ dh-python,
+ python-all,
+ python3-all,
+ python-setuptools,
+ python3-setuptools
+Standards-Version: 3.9.6
+Homepage: https://bitbucket.org/nielsenb/aniso8601
+
+Package: python-aniso8601
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}, ${python:Depends}
+Description: python2 library for parsing dates and time
+ Library for parsing the following:
+  - Parse a time, get a datetime.time
+  - Parse a date, get a datetime.date
+  - Parse a datetime, get a datetime.datetime
+  - Parse a duration, get a datetime.timedelta
+  - Parse an interval, get a tuple of dates or datetimes
+  - Parse a repeating interval, get a date or datetime generator
+ .
+ This package provides the python2 version, a python3 package
+ is also available.
+
+Package: python3-aniso8601
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}, ${python3:Depends}
+Description: python3 library for parsing dates and time
+ Library for parsing the following:
+  - Parse a time, get a datetime.time
+  - Parse a date, get a datetime.date
+  - Parse a datetime, get a datetime.datetime
+  - Parse a duration, get a datetime.timedelta
+  - Parse an interval, get a tuple of dates or datetimes
+  - Parse a repeating interval, get a date or datetime generator
+ .
+ This package provides the python3 version.
+
