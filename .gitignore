@@ -1,0 +1,9 @@
+# Compiled source #
+###################
+*.pyc
+build/
+dist/
+
+#  Documentation  #
+###################
+docs/_build
